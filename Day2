@@ -1,0 +1,21 @@
+DSA:-
+Explain the process behind storing a Variable in Memory?
+A variable is stored in memory based on the amount of memory that is needed. following are the based steps  followed to store variable:-
+The required amount of memory is  assigned first
+Then it is stored  based on the data structure being used.
+using concepts like dynamic allocation  ensure high efficeincy and that the storage units can be accessed on requirements in real time.
+
+
+Can you explain the difference between file structure and storage structure?
+File Structure: Representation of data into secondary or auxiliary memory say any device such as a hard disk or pen drives that stores data which remains intact until manually deleted is known as a file structure representation.
+
+Storage Structure: In this type, data is stored in the main memory i.e RAM, and is deleted once the function that uses this data gets completely executed.
+The difference is that the storage structure has data stored in the memory of the computer system, whereas the file structure has the data stored in the auxiliary memory.
+
+JAVA:-
+ Why is Java a platform independent language?
+Java language was developed in such a way that it does not depend on any hardware or software due to the fact that the compiler compiles the code and then converts it to platform-independent byte code which can be run on multiple systems.
+
+The only condition to run that byte code is for the machine to have a runtime environment (JRE) installed in it
+2. Why is Java not a pure object oriented language?
+Java supports primitive data types - byte, boolean, char, short, int, float, long, and double and hence it is not a pure object oriented language.
