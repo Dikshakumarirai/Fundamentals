@@ -1,0 +1,25 @@
+1. What is a Data Structure?
+The Data Structure is the way data is organized (stored) and manipulated for retrieval and access. It also defines the way different sets of data relate to one another, establishing relationships and forming algorithms.
+
+2. Describe the types of Data Structures?
+The following are the types of data structures:
+
+Lists: A collection of related things linked to the previous or/and following data items.
+Arrays: A collection of values that are all the same.
+Records: A collection of fields, each of which contains data from a single data type.
+Trees: A data structure that organizes data in a hierarchical framework. 
+This form of data structure follows the ordered order of data item insertion, deletion, and modification.
+Tables: The data is saved in the form of rows and columns. These are comparable to records in that the outcome or alteration of data is mirrored across the whole table.
+
+
+What is multithreading?
+Multithreading is a process of executing multiple threads simultaneously. Multithreading is used to obtain the multitasking.
+It consumes less memory and gives the fast and efficient performance. Its main advantages are:
+
+Threads share the same address space.
+The thread is lightweight.
+The cost of communication between the processes is low.
+
+2) What is the thread?
+A thread is a lightweight subprocess. It is a separate path of execution because each thread runs in a different stack frame. 
+A process may contain multiple threads. Threads share the process resources, but still, they execute independently.
