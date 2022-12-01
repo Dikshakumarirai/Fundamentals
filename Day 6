@@ -1,0 +1,25 @@
+DSA(Data Structure and algorithm):
+
+What is an asymptotic analysis of an algorithm?
+Asymptotic analysis of an algorithm defines the run-time performance as per its mathematical boundations. Asymptotic analysis helps us articulate the best 
+case(Omega Notation, Ω), average case(Theta Notation, θ), and worst case(Big Oh Notation, Ο) performance of an algorithm.
+
+ What is hashmap in data structure?
+Hashmap is a data structure that uses an implementation of a hash table data structure which allows access to data in constant time (O(1)) complexity if you have the key.
+
+
+What is the requirement for an object to be used as key or value in HashMap?
+The key or value object that gets used in the hashmap must implement equals() and hashcode() method.
+The hash code is used when inserting the key object into the map and the equals method is used when trying to retrieve a value from the map.
+
+
+
+JAVA(Programming Language):-
+ Why Java is platform independent?
+Java is called platform independent because of its byte codes which can run on any system irrespective of its underlying operating system.
+
+
+ Why Java is not 100% Object-oriented?
+
+Java is not 100% Object-oriented because it makes use of eight primitive data types such as boolean, byte, char, int, float, double, long, short which are not objects.
+
