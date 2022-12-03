@@ -1,0 +1,43 @@
+ What is AVL tree data structure, its operations, and its rotations? What are the applications for AVL trees?
+AVL trees are height balancing binary search trees named after their inventors Adelson, Velski, and Landis.
+The AVL tree compares the heights of the left and right subtrees and ensures that the difference is less than one. This distinction is known as the Balance Factor.
+
+BalanceFactor = height(left-subtree) − height(right-subtree)
+
+
+We can perform the following two operations on AVL tree:
+
+Insertion: Insertion in an AVL tree is done in the same way that it is done in a binary search tree. However, it may cause a violation in the AVL tree property, requiring the tree to be balanced. Rotations can be used to balance the tree.
+Deletion: Deletion can also be performed in the same manner as in a binary search tree. Because deletion can disrupt the tree's balance, various types of rotations are used to rebalance it.
+An AVL tree can balance itself by performing the four rotations listed below:
+
+Left rotation: When a node is inserted into the right subtree of the right subtree and the tree becomes unbalanced, we perform a single left rotation.
+Right rotation: If a node is inserted in the left subtree of the left subtree, the AVL tree may become unbalanced. The tree then requires right rotation.
+Left-Right rotation: The RR rotation is performed first on the subtree, followed by the LL rotation on the entire tree.
+Right-Left rotation: The LL rotation is performed first on the subtree, followed by the RR rotation on the entire tree.
+Following are some real-time applications for AVL tree data structure:
+
+AVL trees are typically used for in-memory sets and dictionaries.
+AVL trees are also widely used in database applications where there are fewer insertions and deletions but frequent data lookups are required.
+Apart from database applications, it is used in applications that require improved searching.
+34. What is a B-tree data structure? What are the applications for B-trees?
+The B Tree is a type of m-way tree that is commonly used for disc access. A B-Tree with order m can only have m-1 keys and m children. One of the primary reasons for using a B tree is its ability to store a large number of keys in a single node as well as large key values while keeping the tree's height relatively small.
+
+A B-tree of order 4 is shown below in the image:
+
+
+Following are the key properties of a B-tree data structure:
+
+All of the leaves are at the same height.
+The term minimum degree 't' describes a B-Tree. The value of t is determined by the size of the disc block.
+Except for root, every node must have at least t-1 keys. The root must contain at least one key.
+All nodes (including root) can have no more than 2*t - 1 keys.
+The number of children of a node is equal to its key count plus one.
+A node's keys are sorted in ascending order. The child of two keys k1 and k2 contains all keys between k1 and k2.
+In contrast to Binary Search Tree, B-Tree grows and shrinks from the root.
+Following are real-time applications of a B-Tree data structure:
+
+It is used to access data stored on discs in large databases.
+Using a B tree, you can search for data in a data set in significantly less time.
+The indexing feature allows for multilevel indexing.
+The B-tree approach is also used by the majority of servers.
