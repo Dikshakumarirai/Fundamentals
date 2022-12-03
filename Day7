@@ -1,0 +1,14 @@
+. How is Java different from C++?
+C++ is only a  compiled language, whereas Java is compiled as well as an interpreted language.
+Java programs are machine-independent whereas a c++ program can run only in the machine in which it is compiled. 
+C++ allows users to use pointers in the program. Whereas java doesn’t allow it. Java internally uses pointers. 
+C++ supports the concept of Multiple inheritances whereas Java doesn't support this. And it is due to avoiding the complexity of name ambiguity that causes the diamond problem.
+6. Pointers are used in C/ C++. Why does Java not make use of pointers?
+Pointers are quite complicated and unsafe to use by beginner programmers. Java focuses on code simplicity, and the usage of pointers can make it challenging. Pointer utilization can also cause potential errors. Moreover, security is also compromised if pointers are used because the users can directly access memory with the help of pointers.
+
+Thus, a certain level of abstraction is furnished by not including pointers in Java. Moreover, the usage of pointers can make the procedure of garbage collection quite slow and erroneous. Java makes use of references as these cannot be manipulated, unlike pointers.
+
+7. What do you understand by an instance variable and a local variable?
+Instance variables are those variables that are accessible by all the methods in the class. They are declared outside the methods and inside the class. These variables describe the properties of an object and remain bound to it at any cost.
+
+All the objects of the class will have their copy of the variables for utilization. If any modification is done on these variables, then only that instance will be impacted by it, and all other class instances continue to remain unaffected.
