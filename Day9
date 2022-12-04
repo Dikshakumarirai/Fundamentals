@@ -1,0 +1,50 @@
+Java:-
+
+1-What are the steps to connect to a database in java?
+Registering the driver class
+Creating connection
+Creating statement
+Executing queries
+Closing connection
+
+
+2- What are the JDBC API components?
+The java.sql package contains interfaces and classes for JDBC API.
+
+Interfaces:
+Connection
+Statement
+PreparedStatement
+ResultSet
+ResultSetMetaData
+DatabaseMetaData
+CallableStatement etc.
+Classes:
+DriverManager
+Blob
+Clob
+Types
+SQLException etc.
+
+
+3- What is the role of JDBC DriverManager class?
+The DriverManager class manages the registered drivers. It can be used to register and unregister drivers.
+It provides factory method that returns the instance of Connection.
+
+DSA:-
+
+1-Are linked lists considered linear or non-linear data structures?
+A linked list is considered both linear and non-linear data structure depending upon the situation.
+
+On the basis of data storage, it is considered as a non-linear data structure.
+On the basis of the access strategy, it is considered as a linear data-structure.
+
+
+2- What are the advantages of Linked List over an array?
+The size of a linked list can be incremented at runtime which is impossible in the case of the array.
+The List is not required to be contiguously present in the main memory, if the contiguous space is not available, the nodes can be stored anywhere in the memory connected through the links.
+The List is dynamically stored in the main memory and grows as per the program demand while the array is statically stored in the main memory, size of which must be declared at compile time.
+The number of elements in the linked list are limited to the available memory space while the number of elements in the array is limited to the size of an array.
+
+
+
