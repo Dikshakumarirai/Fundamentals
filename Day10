@@ -1,0 +1,37 @@
+DSA(Data Structure algorithm):-
+
+1.What are some key operations performed on the Deque data structure?
+Following are the key operations available deque:
+
+insertFront(): This adds an element to the front of the Deque.
+insertLast(): This adds an element to the rear of the Deque.
+deleteFront(): This deletes an element from the front of the Deque.
+deleteLast():This deletes an element from the front of the Deque.
+getFront(): This gets an element from the front of the Deque. 
+getRear(): This gets an element from the rear of the Deque. 
+isEmpty(): This checks whether Deque is empty or not.
+isFull(): This checks whether Deque is full or not.
+
+
+2. What is a priority queue? What are the applications for priority queue?
+Priority Queue is an abstract data type that is similar to a queue in that each element is assigned a priority value. The order in which elements in a priority queue are served is determined by their priority (i.e., the order in which they are removed). If the elements have the same priority, they are served in the order they appear in the queue.
+
+
+Java:-
+
+1. Can the static methods be overloaded?
+Yes! There can be two or more static methods in a class with the same name but differing input parameters.
+
+2. Why is the main method static in Java?
+The main method is always static because static members are those methods that belong to the classes, not to an individual object. So if the main method will not be static then for every object, It is available. And that is not acceptable by JVM. JVM calls the main method based on the class name itself. Not by creating the object.
+
+Because there must be only 1 main method in the java program as the execution starts from the main method. So for this reason the main method is static. 
+
+3. Can the static methods be overridden?
+No! Declaration of static methods having the same signature can be done in the subclass but run time polymorphism can not take place in such cases.
+Overriding or dynamic polymorphism occurs during the runtime, but the static methods are loaded and looked up at the compile time statically.
+Hence, these methods cant be overridden.
+
+
+
+
