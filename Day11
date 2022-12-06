@@ -1,0 +1,28 @@
+What is difference between Array and Arraylist?
+
+Array:-
+a).An array is a dynamically-created object. It serves as a container that holds the constant number of values of the same type. 
+It has a contiguous memory location.
+b).Array is static in size.
+c).An array is a fixed-length data structure.
+
+Arraylist:-
+a).The ArrayList is a class of Java Collections framework. It contains popular classes like Vector, HashTable, and HashMap
+b).ArrayList is dynamic in size.
+c).ArrayList is a variable-length data structure. It can be resized itself when needed.
+
+
+What is JDBC Driver?
+JDBC Driver is a software component that enables java application to interact with the database. There are 4 types of JDBC drivers:
+
+JDBC-ODBC bridge driver
+Native-API driver (partially java driver)
+Network Protocol driver (fully java driver)
+Thin driver (fully java driver)
+
+ What are the steps to connect to a database in java?
+Registering the driver class
+Creating connection
+Creating statement
+Executing queries
+Closing connection
