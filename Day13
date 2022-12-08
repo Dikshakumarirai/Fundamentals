@@ -1,0 +1,31 @@
+1.Where can stack Data Structure be used?
+Expression evaluation
+Backtracking
+Memory management
+Function calling and return
+
+2. What is the difference between a PUSH and a POP?
+In terms of data structure interview questions, this is one of the most frequently asked question.
+
+The acronyms stand for Pushing and Popping operations performed on a stack. These are ways data is stored and retrieved. 
+
+PUSH is used to add an item to a stack, while POP is used to remove an item.
+PUSH takes two arguments, the name of the stack to add the data to and the value of the entry to be added. POP only needs the name of the stack. 
+When the stack is filled and another PUSH command is issued, you get a stack overflow error, which means that the stack can no longer accommodate the last PUSH. 
+In POP, a stack underflow error occurs when you’re trying to POP an already empty stack. 
+
+3. Which sorting algorithm is considered the fastest? Why?
+A single sorting algorithm can’t be considered best, as each algorithm is designed for a particular data structure and data set.
+However, the QuickSort algorithm is generally considered the fastest because it has the best performance for most inputs.
+
+4. What is the merge sort? How does it work?
+Merge sort is a divide-and-conquer algorithm for sorting the data. It works by merging and sorting adjacent data to create bigger sorted lists, which are then merged recursively to form even bigger sorted lists until you have one single sorted list.
+
+5. How does the Selection sort work?
+This is one of the most frequently asked data structure interview questions. Selection sort works by repeatedly picking the smallest number in ascending order from the list and placing it at the beginning. This process is repeated moving toward the end of the list or sorted subarray.
+
+Scan all items and find the smallest. Switch over the position as the first item. Repeat the selection sort on the remaining N-1 items. We always iterate forward (i from 0 to N-1) and swap with the smallest element (always i).
+
+Time complexity: best case O(n2); worst O(n2)
+
+Space complexity: worst O(1)
