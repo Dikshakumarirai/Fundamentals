@@ -1,0 +1,26 @@
+ What is a Comparator in java?
+Consider the example where we have an ArrayList of employees like( EId, Ename, Salary), etc. 
+Now if we want to sort this list of employees based on the names of employees. Then that is not possible to sort using the Collections.sort() method.
+We need to provide something to the sort() function depending on what values we have to perform sorting. Then in that case a comparator is used.
+
+What are the different types of Thread Priorities in Java? And what is the default priority of a thread assigned by JVM?
+There are a total of 3 different types of priority available in Java. 
+MIN_PRIORITY: It has an integer value assigned with 1.
+MAX_PRIORITY: It has an integer value assigned with 10.
+NORM_PRIORITY: It has an integer value assigned with 5.
+
+
+Which among String or String Buffer should be preferred when there are lot of updates required to be done in the data?
+StringBuffer is mutable and dynamic in nature whereas String is immutable.
+Every updation / modification of String creates a new String thereby overloading the string pool with unnecessary objects. Hence, in the cases of a lot of updates,
+it is always preferred to use StringBuffer as it will reduce the overhead of the creation of multiple String objects in the string pool.
+
+
+What happens if the static modifier is not included in the main method signature in Java?
+There wouldn't be any compilation error. But then the program is run, since the JVM cant map the main method signature,
+the code throws “NoSuchMethodError” error at the runtime.
+
+What happens if there are multiple main methods inside one class in Java?
+The program can't compile as the compiler says that the method has been already defined inside the class.
+
+
