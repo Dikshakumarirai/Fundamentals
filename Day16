@@ -1,0 +1,17 @@
+Which of the following data type you will prefer to store price - BigDecimal or Double ?
+Ans. BigDecimal if memory and Performance is not critical concern, otherwise double.
+
+ What is the advantage of BidDecimal over Double ?	Core Java
+Ans. BigDecimal provides more precision as compared to double.
+
+ What is the difference between round and scale method of BigDecimal ?	Core Java
+Ans. Round method would round it to integer places irrespective of if it's decimal places or not whereas scale would only round the decimal places.
+
+ Have you ever faced problems with rounding decimal places and what were the reasons ?	Core Java
+Ans. 1. The problem with double (x*100)/100 doesn't return exact x but few fractions lesser than x and then if you are using floor rounding , it makes a big difference
+
+2. Rounding only after getting a result vs rounding each outcome of 2 operand make difference
+
+3. Usage of inappropriate Rounding mode and Rounding scale.
+
+4. Results with double and BigDecimal
