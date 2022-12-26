@@ -1,0 +1,18 @@
+Why is synchronization necessary? Explain with the help of a relevant example.
+Concurrent execution of different processes is made possible by synchronization.
+When a particular resource is shared between many threads, situations may arise in which multiple threads require the same shared resource.
+
+What could be the tradeoff between the usage of an unordered array versus the usage of an ordered array?
+The main advantage of having an ordered array is the reduced search time complexity of O(log n) whereas the time complexity in an unordered array is O(n).
+
+Is it possible to import the same class or package twice in Java and what happens to it during runtime?
+It is possible to import a class or package more than once, however, it is redundant because the JVM internally loads the package or class only once.
+
+ What do you understand by marker interfaces in Java?
+Marker interfaces, also known as tagging interfaces are those interfaces that have no methods and constants defined in them.
+They are there for helping the compiler and JVM to get run time-related information regarding the objects
+
+What is the best way to inject dependency? Also, state the reason.
+There is no boundation for using a particular dependency injection. But the recommended approach is - 
+
+Setters are mostly recommended for optional dependencies injection, and constructor arguments are recommended for mandatory ones. This is because constructor injection enables the injection of values into immutable fields and enables reading them more easily.
