@@ -1,0 +1,12 @@
+How to Generate MD5 Checksum for Files in Java?
+MD5 and SHA are the two most widely used checksum algorithms. 
+You must ensure that you use the same algorithm that has been used to generate the checksum when checking checksums.
+For example, the MD5 checksum value of a file is totally different from its SHA-256 checksum value.
+
+Difference between MD5 and SHA1
+MD5 stands for Message Digest and SHA1 stands for Secure Hash Algorithm square measure the hashing algorithms wherever 
+The speed of MD5 is fast in comparison of SHA1’s speed.
+
+However, SHA1 provides more security than MD5. 
+The construct behind these hashing algorithms is that these square measure accustomed generate a novel digital fingerprint of knowledge or 
+message that is understood as a hash or digest. 
