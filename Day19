@@ -1,0 +1,27 @@
+What is priority Queue?
+A priority queue is a special queue where:
+
+Every item in the queue has a priority, and
+Higher-priority items are dequeued before lower-priority items.
+
+Strengths:
+Quickly access the highest-priority item. Priority queues allow you to peek at the top item in O(1)O(1) while keeping other operations relatively cheap (O(lg(n))O(lg(n))).
+
+Weaknesses:
+Slow enqueues and dequeues. Both operations take O(\lg(n))O(lg(n)) time with priority queues. With normal first-in, first-out queues, these operations are O(1)O(1) time.
+
+Uses
+Any time you want to handle things with different priority levels: triaging patients in a hospital, locating the closest available taxi, or just a to-do list.
+Operating system schedulers may use priority queues to select the next process to run, ensuring high-priority tasks run before low-priority ones.
+Certain foundational algorithms rely on priority queues:
+Dijkstra's shortest-path
+A* search (a graph traversal algorithm like BFS)
+Huffman codes (an encoding for data compression)
+
+Binary Heaps
+Priority queues are often implemented using binary heaps. Notice how the highest priority is right at the top of the heap, ready to be grabbed in O(1)O(1) time.
+
+A binary heap is a binary tree where the nodes are organized to so that the smallest value is always at the top.
+To enqueue an item, add it to the heap using the priority as the key. (O(\lg(n))O(lg(n)) time)
+To peek at the highest priority item, look at the item at the top. (O(1)O(1) time)
+To dequeue the highest priority item, remove the top item from the heap. (O(\lg(n))O(lg(n)) time)
