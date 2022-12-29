@@ -1,0 +1,25 @@
+Visitor Pattern
+
+It is a type of behavioral design pattern. It manages algorithms, relationships, and responsibilities between objects.
+It is used to perform an operation on a group of similar kinds of Objects at runtime.
+
+Example of Visitor Design Pattern
+The most common example of visitor pattern is shopping in the supermarket. In the supermarket, we pick the goods and add them to our cart.
+When we collect all the necessary goods to the cart, we go to the bill desk for billing. The cashier checks all the goods picked by us and tells us the total amount; we have to pay. Here, the cashier acts as a visitor.
+
+Where and when to use it?
+We should use a visitor design pattern if the application holds the following conditions:
+
+If we have a well-defined set of classes that are to be visited.
+Operations on said classes are not well-defined or known in advance.
+For example, if someone is consuming your API and you want to give consumers a way to add new ad-hoc functionality to objects. 
+They're also a convenient way to extend sealed classes with ad-hoc functionality.
+
+Design Components
+There are five major components of visitor pattern:
+
+Client: It is a class that acts as a consumer of the classes of the design pattern. It has the authority to access the data structure objects. It also instructs them to accept a Visitor that performs the appropriate processing.
+Visitor: It may be an interface or an abstract class. The interface contains the visit operation for all types of visitable classes.
+ConcreteVisitor: All the visit methods that are declared in abstract visitor must be implemented in the ConcreteVisitor class. Each visitor is responsible for different operations.
+Visitable: It is also an interface in which we declare the accepted operation. It is an entry point that enables an object to be visited by the visitor object.
+ConcreteVisitable: It is a class that implements the Visitable interface or class in which accept operation is defined. The object of the visitor class is passed through the object of using the accept operation.
