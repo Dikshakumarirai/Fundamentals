@@ -1,0 +1,24 @@
+How regex is used in Java?
+A regular expression can be a single character, or a more complicated pattern. 
+Regular expressions can be used to perform all types of text search and text replace operations. Java does not have a built-in Regular Expression class,
+but we can import the java.util.regex package to work with regular expressions.
+
+How to validate regex in Java?
+The following steps can be followed to compute the answer:
+Get the string.
+Form a regular expression to validate the given string. ...
+Match the string with the Regex. ...
+Return true if the string matches with the given regex, else return false.
+
+Why regex is used?
+Regular expressions are particularly useful for defining filters. 
+Regular expressions contain a series of characters that define a pattern of text to be matched—to make a filter more specialized, or general.
+
+What algorithm is used with regex?
+backtracking algorithm
+Most library implementations of regular expressions use a backtracking algorithm that can take an exponential amount of time on some inputs.
+Such inputs can be surprisingly simple.
+
+Which language is used in regex?
+Ans. A regular expression can be defined as a language or string accepted by a finite automata. We know that a finite automata consists of five touples {Q, Σ, δ, q0, F}.
+
