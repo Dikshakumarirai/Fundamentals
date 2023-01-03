@@ -1,0 +1,40 @@
+How to implement Stack and Queue using ArrayDeque in Java?
+The ArrayDeque in Java provides a way to apply resizable-array in addition to the implementation of the Deque interface. 
+It is also known as Array Double Ended Queue or Array Deck. This is a special kind of array that grows and allows users to add or remove an element from both sides of the queue.
+ArrayDeque class implements Queue and Deque interface which provides it a lot of methods and functionalities.
+
+How to use ArrayDeque
+ArrayDeque is a class in Java Programming Language that implements the Queue and Deque interface that further extends the Collection Interface. 
+ArrayDeque has all the methods of Queue and Deque such as add(), remove(), addFirst(), addLast(), removeFirst(), removeLast(),
+and many others inherited from these interfaces.
+It is very easy to use ArrayDeque class because of the ease of these methods provided in Java.
+
+Difference between Queue and Deque (Queue vs. Deque)?
+Queue:
+The queue is an abstract data type or linear data structure from which elements can be inserted at the rear(back) of the queue and elements can be deleted from the front(head) of the queue.
+
+Queue Data structure
+Queue Data structure
+
+The operations allowed in the queue are:
+insert an element at the rear
+delete element from the front
+get the last element
+get the first element
+check the size of the queue
+check if the queue is empty or not
+Deque:
+The double-ended queue is an abstract data type that generalizes a queue from which elements can be inserted or deleted either from both front(head) or rear(tail) ends.
+
+Deque Data structure
+Deque Data structure
+
+The operations allowed in deque are:
+insert an element at the back
+Insert an element at the front
+delete the element at the back
+delete the element from the front
+get the last element
+get the first element
+check the size of the deque
+check if the deque is empty or not
