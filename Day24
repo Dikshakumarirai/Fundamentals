@@ -1,0 +1,25 @@
+What Are Annotations? What Are Their Typical Use Cases?
+Annotations are metadata bound to elements of the source code of a program and have no effect on the operation of the code they operate.
+
+Their typical uses cases are:
+
+Information for the compiler – with annotations, the compiler can detect errors or suppress warnings
+Compile-time and deployment-time processing – software tools can process annotations and generate code, configuration files, etc.
+Runtime processing – annotations can be examined at runtime to customize the behavior of a program
+
+
+ Describe Some Useful Annotations from the Standard Library.
+There are several annotations in the java.lang and java.lang.annotation packages, 
+the more common ones include but not limited to:
+
+
+freestar
+@Override – marks that a method is meant to override an element declared in a superclass. If it fails to override the method correctly, the compiler will issue an error
+@Deprecated – indicates that element is deprecated and should not be used. The compiler will issue a warning if the program uses a method, class, 
+or field marked with this annotation
+
+What Are Meta-Annotations? 
+Are annotations that apply to other annotations.
+
+All annotations that aren't marked with @Target, or are marked with 
+it but include ANNOTATION_TYPE constant are also meta-annotations:
