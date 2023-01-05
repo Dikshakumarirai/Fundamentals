@@ -1,0 +1,29 @@
+How to use SHA 256 in Java?
+In Java, we can use MessageDigest to get a SHA-256 or SHA3-256 hashing algorithm to hash a string.
+MessageDigest md = MessageDigest. getInstance("SHA3-256"); byte[] result = md. digest(input);
+...
+Java supports the following SHA-3 algorithms:
+SHA3-224.
+SHA3-256.
+SHA3-384.
+SHA3-512
+.
+How do I convert SHA256 to hash? OR
+How to Generate SHA256 Hash?
+
+Step 1: Enter the Plain or Cypher Text.
+Step 2: Click on Generate SHA256 HASH Online.
+Step 3: Use Copy to Clipboard functionality to copy the generated SHA256 hash.
+
+How SHA256 is calculated?
+Image result
+For SHA-256 these are calculated from the first 8 primes. These always remain the same for any message.
+The primes are firstly square rooted and then taken to the modulus 1.
+The result is then multiplied by 16⁸ and rounded down to the nearest integer.
+
+What can SHA 256 be used for?
+SHA-256 is used in some of the most popular authentication and encryption protocols, including SSL, TLS, IPsec, SSH, and PGP.
+In Unix and Linux, SHA-256 is used for secure password hashing. 
+Cryptocurrencies such as Bitcoin use SHA-256 for verifying transactions.
+
+
