@@ -1,0 +1,22 @@
+What is a heap data structure?
+Heap is a special tree-based non-linear data structure in which the tree is a complete binary tree. A binary tree is said to be complete if all levels are completely filled except possibly the last level and the last level has all elements as left as possible. Heaps are of two types:
+
+Max-Heap:
+In a Max-Heap the data element present at the root node must be the greatest among all the data elements present in the tree.
+This property should be recursively true for all sub-trees of that binary tree.
+Min-Heap:
+In a Min-Heap the data element present at the root node must be the smallest (or minimum) among all the data elements present in the tree.
+This property should be recursively true for all sub-trees of that binary tree.
+
+
+ 2.How does HashMap handle collisions in Java?
+The java.util.HashMap class in Java uses the approach of chaining to handle collisions. In chaining, if the new values with the same key are attempted to be pushed, then these values are stored in a linked list stored in a bucket of the key as a chain along with the existing value.
+In the worst-case scenario, it can happen that all keys might have the same hashcode, which will result in the hash table turning into a linked list. In this case, searching a value will take O(n) complexity as opposed to O(1) time due to the nature of the linked list. Hence, care has to be taken while selecting hashing algorithm.
+3. What is the time complexity of basic operations get() and put() in HashMap class?
+The time complexity is O(1) assuming that the hash function used in the hash map distributes elements uniformly among the buckets.
+
+
+
+4. What is binary tree data structure? What are the applications for binary trees?
+A binary tree is a data structure that is used to organize data in a way that allows for efficient retrieval and manipulation. It is a data structure that uses two nodes, called leaves and nodes, to represent the data. The leaves represent the data and the nodes represent the relationships between the leaves. Each node has two children, called siblings, and each child has one parent. The parent is the node that is closest to the root of the tree. When a node is deleted from the tree,
+it is deleted from both its child and its parent.
