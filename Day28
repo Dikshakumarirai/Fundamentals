@@ -1,0 +1,32 @@
+1. What is an Array in Programming?
+An Array is a collection of similar data types stored in contiguous memory locations.
+At the time of declaration of an array, you must specify the type of data with the array name.
+You can access different elements present in an array using their index. For example,
+if you want to access an element pleasant at the 3rd index(4th element) in an array arr, then you can write arr[3].
+
+ 2. Mention some advantages and disadvantages of Arrays.
+Advantages:
+
+Multiple elements of Array can be sorted at the same time.
+Using the index, we can access any element in O(1) time.
+Disadvantages:
+
+You need to specify how many elements you're going to store in your array ahead of time and We can not increase or decrease the size of the Array after creation.
+You have to shift the other elements to fill in or close gaps, which takes worst-case O(n) time.
+
+
+3. What is the default value of Array in Java?
+If we don't specify the values by ourselves, then Java assigns default values in them which are 0 for byte, short, int, and long, 0.0 for float and double, 
+false for boolean, and null for objects respectively.
+
+4. Where is an Array stored in JVM memory?
+An Array is an object in java. So, Array is stored in heap memory in Java Virtual Machine.
+
+5.Can a Negative number be passed in Array size?
+No, a negative number cannot be passed as array size. If you pass a negative number in Array size then you will get the NegativeArraySizeException at run time.
+
+
+
+
+
+
