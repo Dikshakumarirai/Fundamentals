@@ -1,0 +1,26 @@
+1. What is the default value of Array?
+Any new Array is always initialized with a default value as follows
+
+For byte, short, int, long – default value is zero (0).
+For float, double – default value is 0.0.
+For Boolean – default value is false.
+For object – default value is null.
+
+2. Can we declare array size as a negative number?
+No. We cannot declare the negative integer as an array size.
+
+If we declare, there will be no compile-time error.
+
+However, we will get NegativeArraySizeException at run time.
+
+ 3.When will we get ArrayStoreException?
+It is a runtime exception. For example, we can store only string elements in a String Array.
+If anybody tries to insert integer element in this String Array, 
+then we will get ArrayStoreException at run time.
+
+4. Can we add or delete an element after assigning an array?
+No it is not possible.
+
+ 5. Is there any difference between int[] a and int a[]?
+No difference both are the legal statement.
+
