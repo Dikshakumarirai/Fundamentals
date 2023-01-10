@@ -1,0 +1,25 @@
+1.How do you find the missing integer in an array of range 1 to 100?
+During an interview, this question is often used to assess your knowledge of how programmers may manipulate or troubleshoot arrays. As the answer may depend on the exact elements or structure of the array, this question may also display your problem-solving abilities. In addition to showing your flexibility and extensive knowledge, providing solutions to all situations can also impress the interviewer.
+A missing integer can be found by calculating the sum of the series using this function: n (n + 1) / 2
+This function will work only if the array doesn't contain any duplicates or is missing more than one number. 
+If an array contains duplicate elements, you can sort the array and determine whether there are two equal elements.
+
+
+2. How do you remove a particular element from an array?
+You can't directly remove elements from the original array, as arrays are fixed sets and the size can't change therefore the interviewer is looking for you to suggest an alternate solution and address the issue that the question presents. The best way to remove an element would be to create a new array. In this array, you could include copies of elements of the first array and omit only the element you want to remove.
+Another approach is searching for the target element in the array and then moving all the elements in one position back which are on the right side of 
+the target element.
+
+
+3. How can you get the index of an array element?
+You can find the index of an element through a linear or binary search. A linear search is a function in which you loop through each and every element of an array until it finds the match of the desired element. When it finds the matching element, it returns the index. Therefore time complexity of the linear search is O(n). Linear search can be applied to sorted as well as an unsorted array.
+If the array is sorted, you can use a binary search that repeatedly splits the array in half until the median of the interval matches 
+the desired element and returns the index. Therefore time complexity of the binary search is O(log n).
+
+4.  How to check the equality of two arrays?
+You will be given two arrays and you have to check whether the 2 arrays are equal or not.
+
+First, you have to check the lengths of two given arrays. When the length of both arrays is the same, we compare corresponding elements of both arrays.
+Both the arrays will be considered equal If all corresponding pairs of elements are equal.
+If the arrays are big in size this method will be time-consuming therefore this method is not recommended to check the equality of two arrays. You can also use the in-built equals() method of Arrays class but in the interview, the interviewer may ask you to compare two arrays without using in-built functions therefore this method will help you at that time.
+
