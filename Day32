@@ -1,0 +1,41 @@
+1. What is the difference between an Inner class and a Subclass?
+It is a Core Java Interview Questions, when you are a beginner go through the answer carefully.
+
+An inner class has been nested within the other class. An inner class has access rights for the class that is nesting it and can access all methods and variables that are defined in the outer class.
+
+A subclass inherits from the other class known as the superclass. Sub-class can access all protected and public fields and methods of its superclass.
+
+
+2. What is known as data encapsulation and explain it’s significance?
+
+Encapsulation is the concept which is asked frequently in the most Core Java Interview Questions for Freshers.
+
+Encapsulation is said to be a concept in Object Oriented Programming for combining methods and properties in a single unit. Encapsulation helps the programmers in following a modular approach for the software development as each object has its unique set of variables and methods and serves its functions independent of other objects. Encapsulation is also used for data hiding purpose.
+
+3. What is the purpose of static variables and static methods?
+
+When there is a need to share a variable or a method between multiple objects of a class rather than creating separate copies for each object. To make a variable or method shared for all objects, we use.
+
+4. What is called Loops in Java? What are the three types of loops?
+
+This is a Java Basic Interview Questions to know mandatorily before attending any interviews.
+
+Looping is used in programming to implement a statement or a statement block repeatedly. There are three types of loops in Java:
+
+a. For Loops:
+
+For loops are used in java to implement statements regularly for a given no of times. For loops are used when no of times to implement the statements is refer to the programmer.
+
+b. while Loops:
+
+While loop is used if certain statements require being implemented regularly until a condition is satisfied. The condition is tested first before implementation of statements in while loops.
+
+c. Do While Loops:
+
+Do while loop is similar to while loop with an only difference which condition is examined after implementation of statement blocks. Thus in do while loop case, statements are implemented at least once.
+
+5. What is a singleton class? Give an example
+
+In Java, a singleton class can have only one instance and thus all its variables and methods belong to one instance. The concept of a singleton class is used for the situations while there is a requirement to limit the no of objects for a class.
+
+The good example of singleton usage scenario is while there is a limit of having an only single connection to a database due to some limitations of the driver or any licensing issues
