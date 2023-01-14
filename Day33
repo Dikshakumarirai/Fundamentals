@@ -1,0 +1,14 @@
+1. What is the default value stored in Local Variables?
+Neither the Local Variables nor any primitives and Object references have any default value stored in them. 
+
+ 2. What is an Association?
+An Association can be defined as a relationship that has no ownership over another. For example, a person can be associated with multiple banks, and a bank can be related to various people, but no one can own the other.
+
+3. What do you mean by aggregation?
+The term aggregation refers to the relationship between two classes best described as a “whole/part” and “has-a” relationship. This kind is the most specialized version of an association relationship. It contains the reference to another class and is said to have ownership of that class.
+
+4. Define Copy Constructor in Java
+A Copy Constructor in Java is a constructor that initializes an object through another object of the same class.
+
+5. What is a Marker Interface?
+An empty interface in Java is referred to as a Marker interface. Serializable and Cloneable are some famous examples of Marker Interface. 
