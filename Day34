@@ -1,0 +1,40 @@
+1. What is the importance of reflection in Java?
+
+Reflection is a runtime API for inspecting and changing the behavior of methods, classes, and interfaces.
+Java Reflection is a powerful tool that can be really beneficial. Java Reflection allows you to analyze classes, interfaces, fields, 
+and methods during runtime without knowing what they are called at compile time. Reflection can also be used to create new objects, call methods,
+and get/set field values. External, user-defined classes can be used by creating instances of extensibility objects with their fully-qualified names.
+Debuggers can also use reflection to examine private members of classes.
+
+2. How to not allow serialization of attributes of a class in Java?
+
+The Non-Serialized attribute can be used to prevent member variables from being serialized.
+You should also make an object that potentially contains security-sensitive data non-serializable if possible.
+Apply the Non-Serialized attribute to certain fields that store sensitive data if the object must be serialized. 
+If you don’t exclude these fields from serialization, the data they store will be visible to any programs with serialization permission.
+
+3. Can you call a constructor of a class inside another constructor?
+
+Yes, we can call a constructor of a class inside another constructor. This is also called as constructor chaining. 
+Constructor chaining can be done in 2 ways-
+
+Within the same class: For constructors in the same class, the this() keyword can be used.
+From the base class: The super() keyword is used to call the constructor from the base class.
+The constructor chaining follows the process of inheritance. The constructor of the sub class first calls the constructor of the super class.
+Due to this, the creation of sub class’s object starts with the initialization of the data members of the super class.
+The constructor chaining works similarly with any number of classes. Every constructor keeps calling the chain till the top of the chain.
+ 
+
+4. Contiguous memory locations are usually used for storing actual values in an array but not in ArrayList. Explain.
+
+An array generally contains elements of the primitive data types such as int, float, etc. In such cases, the array directly stores these elements at contiguous 
+memory locations. While an ArrayList does not contain primitive data types.
+An arrayList contains the reference of the objects at different memory locations instead of the object itself.
+That is why the objects are not stored at contiguous memory locations.
+
+ 
+
+5. How is the creation of a String using new() different from that of a literal?
+When we create a string using new(), a new object is created. Whereas, if we create a string using the string literal syntax, it may return an already existing object with the same name.
+
+ 
