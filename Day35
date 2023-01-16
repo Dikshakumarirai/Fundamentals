@@ -1,0 +1,29 @@
+1. What is an object in Java and how is it created?
+An object is a real-world entity that has a state and behavior. An object has three characteristics:
+
+State
+Behavior
+Identity
+An object is created using the ‘new’ keyword. For example:
+
+ClassName obj = new ClassName();
+
+2. What is Object Oriented Programming?
+Object-oriented programming or popularly known as OOPs is a programming model or approach where the programs are organized around objects rather than logic and functions. In other words, OOP mainly focuses on the objects that are required to be manipulated instead of logic. This approach is ideal for the programs large and complex codes and needs to be actively updated or maintained.
+
+3. What are the main concepts of OOPs in Java?
+Object-Oriented Programming or OOPs is a programming style that is associated with concepts like:
+
+Inheritance: Inheritance is a process where one class acquires the properties of another.
+Encapsulation: Encapsulation in Java is a mechanism of wrapping up the data and code together as a single unit.
+Abstraction: Abstraction is the methodology of hiding the implementation details from the user and only providing the functionality to the users. 
+Polymorphism: Polymorphism is the ability of a variable, function or object to take multiple forms.
+
+4. Explain the term “Double Brace Initialisation” in Java?
+Double Brace Initialization is a Java term that refers to the combination of two independent processes. There are two braces used in this. The first brace creates an anonymous inner class. The second brace is an initialization block. When these both are used together, it is known as Double Brace Initialisation. The inner class has a reference to the enclosing outer class, genertally using the ‘this’ pointer. It is used to do both creation and initialization in a single statement. It is generally used to initialize collections. It reduces the code and also makes it more readable.
+
+5. What is constructor chaining in Java?
+In Java, constructor chaining is the process of calling one constructor from another with respect to the current object. Constructor chaining is possible only through legacy where a subclass constructor is responsible for invoking the superclass’ constructor first. There could be any number of classes in the constructor chain. Constructor chaining can be achieved in two ways:
+
+Within the same class using this()
+From base class using super()
