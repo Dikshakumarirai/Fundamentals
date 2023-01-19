@@ -1,0 +1,32 @@
+1. What is an infinite loop in Java? Explain with an example.
+An infinite loop is an instruction sequence in Java that loops endlessly when a functional exit isn’t met. 
+This type of loop can be the result of a programming error or may also be a deliberate action based on the application behavior. 
+An infinite loop will terminate automatically once the application exits.
+
+2.Explain the term “Double Brace Initialisation” in Java?
+Double Brace Initialization is a Java term that refers to the combination of two independent processes. 
+There are two braces used in this. The first brace creates an anonymous inner class. The second brace is an initialization block.
+When these both are used together, it is known as Double Brace Initialisation. The inner class has a reference to the enclosing outer class, 
+genertally using the ‘this’ pointer. It is used to do both creation and initialization in a single statement. It is generally used to initialize collections.
+It reduces the code and also makes it more readable.
+
+3. What is constructor chaining in Java?
+In Java, constructor chaining is the process of calling one constructor from another with respect to the current object.
+Constructor chaining is possible only through legacy where a subclass constructor is responsible for invoking the superclass’ constructor first.
+There could be any number of classes in the constructor chain. Constructor chaining can be achieved in two ways:
+
+Within the same class using this()
+From base class using super()
+
+4. What is a classloader in Java?
+The Java ClassLoader is a subset of JVM (Java Virtual Machine) that is responsible for loading the class files. Whenever a Java program is executed it is first loaded by the classloader. Java provides three built-in classloaders:
+
+Bootstrap ClassLoader
+Extension ClassLoader
+System/Application ClassLoader
+5. Why Java Strings are immutable in nature?
+In Java, string objects are immutable in nature which simply means once the String object is created its state cannot be modified. 
+Whenever you try to update the value of that object instead of updating the values of that particular object, Java creates a new string object. 
+Java String objects are immutable as String objects are generally cached in the String pool. Since String literals are usually shared between multiple clients,
+action from one client might affect the rest.
+It enhances security, caching, synchronization, and performance of the application.
