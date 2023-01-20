@@ -1,0 +1,31 @@
+1. What is abstraction in Java?
+Abstraction refers to the quality of dealing with ideas rather than events. It basically deals with hiding the details and showing the essential things to the user. Thus you can say that abstraction in Java is the process of hiding the implementation details from the user and revealing only the functionality to them. Abstraction can be achieved in two ways:
+
+Abstract Classes (0-100% of abstraction can be achieved)
+Interfaces (100% of abstraction can be achieved)
+
+
+2. What do you mean by an interface in Java?
+An interface in Java is a blueprint of a class or you can say it is a collection of abstract methods and static constants.
+In an interface, each method is public and abstract but it does not contain any constructor.
+Thus, interface basically is a group of related methods with empty bodies. Example:
+
+public interface Animal {
+  public void eat();
+  public void sleep();
+  public void run();
+}
+
+3. What is method overloading and method overriding?
+Method Overloading :
+In Method Overloading, Methods of the same class shares the same name but each method must have a different number of parameters or parameters having different types and order.
+Method Overloading is to “add” or “extend” more to the method’s behavior.
+It is a compile-time polymorphism.
+The methods must have a different signature.
+It may or may not need inheritance in Method Overloading.
+
+4.What is an association?
+Association is a relationship where all object have their own lifecycle and there is no owner. Let’s take the example of Teacher and Student.
+Multiple students can associate with a single teacher and a single student can associate with multiple teachers but there is no ownership between the objects 
+and both have their own lifecycle. 
+These relationships can be one to one, one to many, many to one and many to many.
